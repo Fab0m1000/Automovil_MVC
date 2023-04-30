@@ -1,0 +1,78 @@
+*,*::before,*::after{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+
+.contenedor-principal{
+  max-width: 1200px;
+  margin: 1.5em auto;
+  
+}
+
+.contenedor-titulo{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "helvetica";
+
+}
+
+table{
+  width: 70%;
+  text-align: center;
+}
+
+thead tr td{
+  margin: .5em .7em;
+  background-color: #9CA777;
+  border: 1px solid #c9c9c9;
+  font-size: 1rem;
+  font-family: 'Lucida Sans';
+  padding: .6em 1em;
+}
+
+tbody tr td{
+  margin: .2em .4em;
+  padding: 1em .6em;
+  background-color: #F0F0F0;
+  border: 1px solid #393646;
+}
+
+.btn-actualizar,.btn-eliminar{
+  padding: .5em .8em; 
+  font-family: "helvetica";
+  font-size:1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #000;
+
+}
+
+.btn-actualizar{
+  background-color: #05BFDB;
+}
+
+.btn-eliminar{
+  background-color: #FF6D60;
+}
+
+.contenedor-agregar{
+  margin-top: 35px;
+
+}
+
+.btn-aniadir{
+  padding: 1.2em .8em;
+  text-decoration: none;
+  color: blue;
+  font-size: 1rem;
+  font-family: Arial;
+  background-color: #DEDEA7;
+  border-radius: 7px;
+}
+
+.btn-aniadir span{
+  font-size: 1rem;
+}

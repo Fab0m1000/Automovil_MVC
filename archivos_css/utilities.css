@@ -1,0 +1,6 @@
+.img-auto{
+  width: 100%;
+  object-fit: cover;
+  margin: .5em;
+}
+

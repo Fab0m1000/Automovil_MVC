@@ -1,0 +1,42 @@
+*,*::before, *::after{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  line-height: 1.2;
+}
+
+.contenedor-principal{
+  margin: auto;
+  max-width: 1200px;
+}
+
+.contenedor-todo{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  gap: 12px;
+}
+
+form label{
+  font-weight: 600;
+  font-size: .9rem;
+}
+
+input[type="text"]{
+  width: 400x;
+  display:block;
+  padding: .8em 1.3em;
+  margin: 1.3em .4em;
+}
+
+.btn-actualizar{
+  padding: .6em 1em;
+  font-size:1rem;
+  font-weight: 500;
+  font-family: "Gill Sans";
+  margin-left: 33px;
+}
